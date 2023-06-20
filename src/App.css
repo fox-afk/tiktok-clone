@@ -33,3 +33,10 @@ esconde a scoll no chrome.safari e opera*/
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+@media only screen and (max-width:440px){
+ .app__videos{
+  width: 100%;
+  height: 100vh;
+ }
+}
